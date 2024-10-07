@@ -1,7 +1,7 @@
 package com.sphenon.basics.locating.locators;
 
 /****************************************************************************
-  Copyright 2001-2018 Sphenon GmbH
+  Copyright 2001-2024 Sphenon GmbH
 
   Licensed under the Apache License, Version 2.0 (the "License"); you may not
   use this file except in compliance with the License. You may obtain a copy
@@ -50,7 +50,7 @@ public class LocatorGitHub extends Locator {
                 new LocatorParserState(context, "user"      , "user::String:1"      , false, false, null),
                 new LocatorParserState(context, "repository", "repository::String:2", false, false, null),
                 new LocatorParserState(context, "reference" , "reference::String:3" , false, true, Object.class),
-                new LocatorParserState(context, "name"      , "name::String:3"      , false, true, Object.class),
+                new LocatorParserState(context, "name"      , "name::String:3"      , false, true, Object.class)
             };
         }
         return locator_parser_state;
